@@ -1,6 +1,6 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
-\usepackage{graphicx} % Required for inserting images
+\usepackage{graphicx}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmic}
@@ -8,7 +8,7 @@
 \usepackage{textcomp}
 \usepackage{xcolor}
 
-\title{Algorithmic Game Theory and its applications: \\ Stable Matching Problems}
+\title{Graph Partitioning Algorithms: A Comparative Study}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
@@ -19,26 +19,28 @@
 \maketitle
 
 \begin{abstract}
-Algorithmic Game Theory (AGT) lies in the intersection between the vast fields of economics and computer science, especially analysis and design of algorithms and theoritical computer science. AGT focuses on designing and modeling algorithmic systems in which the behavior of an entity is influenced by the behaviour of other entities through strategic interactions. In traditional problems in computer science, algorithms expect input to be fixed and reliable. In numerous real world scenarios, like online auctions, internet routing, digital advertising, and resource allocation, inputs come from multiple independent agents who might deliberately deceive data to influence outcomes in their favor. AGT offers tools to study and create systems that function effectively even when faced with such strategic manipulation. This paper discusses Network routing games a fundamental area within AGT that models how self-interested agents (drivers, data packets, autonomous systems) select routes through shared network infrastructure. In these games, each agent's routing decision affects congestion experienced by others, creating complex strategic interactions that can lead to inefficient equilibria. We examine the computational and game-theoretic aspects of routing games, survey key theoretical results including the Price of Anarchy and Braess's Paradox, and present experimental analysis comparing selfish routing behavior against centrally optimized solutions across various network topologies.
+
 \end{abstract}
 
-
 \section{Introduction}
-\section{Problem Definition \& Methodology}
+Abstraction is one of the most important ideas of computer science. Computer scientists and researcher across the span of the study and modelling of real-world complex entities have utilized modelling them as \textit{graphs}. In each case, there is an underlying
+network that encapsulate the important properties that help us understand these entities and draw meaningful insights from them. In addition to the huge contribution that graphs brought to the advancment in computer science, it brought with its complexities. Due to the enormous data graphs can represent, they often fall in the area of \textit{NP Hard Problems}, starting from the most famous Travelling Salesman Problem (TSP) to graph coloring (k-coloring for k $\geq 3$), Hamiltonian paths and more.
+Graph Partitioning stands as one of the most challenging problems in computer science. Graph partitioning is essential for the fields of parallel computing, high performance computing (HPC) and load balancing in networks, VLSI in digital logic design where vertices resemble logical units and edges resemble wires (Science Direct, 2025). This paper goes into depth of some heurisitcs and greedy algorithms that allow local use of the power of graph partitioning.
+
+"This problem is increasing with the emergence of Big Data. Handling tremendous volumes of graph data requires an efficient graph processing system and especially a high-quality graph partitioning approachs to cope with graph application needs." (Sakouhi et al., 2025)
+\section{Background}
+
+\section{Problem Definition}
 \section{Literature Survey}
-
 \section{Experiment}
-\section{Analysis \& Critique}
-\section{Conclusion}
-\section{Future Work}
-
+\section{Results and Discussion}
+\section{Conclusion \& Future Work}
 
 
 \begin{thebibliography}{99}
 \bibitem[{\bf}]{dummy1}
 
 \bibitem{bib01}
-  
 \end{thebibliography}
 
 \bibliographystyle{tjsass} 
